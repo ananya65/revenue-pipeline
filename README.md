@@ -17,8 +17,8 @@ This project implements an ETL pipeline to fetch booking data from an API, trans
 
 ```bash
 git clone https://github.com/ananya65/revenue-pipeline.git
-
-## 2. Start PostgreSQL with Docker Compose
+```
+### 2. Start PostgreSQL with Docker Compose
 
 Run the following command to start the PostgreSQL database container in detached mode:
 
