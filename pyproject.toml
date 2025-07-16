@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "revenue-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Pandey, Ananya <Ananya.Pandey@uhs.nhs.uk>"]
+readme = "README.md"
+ package-mode = false 
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.1"
+sqlalchemy = "^2.0.41"
+psycopg2 = "^2.9.10"
+dotenv = "^0.9.9"
+requests = "^2.32.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
