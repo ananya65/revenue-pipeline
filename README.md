@@ -4,3 +4,18 @@ This project implements an ETL pipeline to fetch booking data from an API, trans
 
 ---
 
+## Prerequisites
+
+- Docker & Docker Compose installed
+- Poetry installed ([installation guide](https://python-poetry.org/docs/#installation))
+- Python 3.12+
+
+---
+## Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ananya65/revenue-pipeline.git
+
+
