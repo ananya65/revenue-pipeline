@@ -24,3 +24,15 @@ Run the following command to start the PostgreSQL database container in detached
 
 ```bash
 docker compose up -d
+```
+
+### 3. Install dependencies and activate virtual environment
+
+Install dependencies and activate virtual environment
+
+```bash
+poetry shell
+poetry install
+```
+
+
