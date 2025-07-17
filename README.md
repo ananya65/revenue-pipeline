@@ -65,10 +65,17 @@ python main.py
 ### 6.Notes
 
 Run the main script to load currency rates, fetch bookings from the API, transform the data, and load the invoicing summary into the database:
-```bash
-Ensure Docker PostgreSQL container is running before running the pipeline
+```
+### 6. Notes
 
-Modify the .env file to reflect your database credentials and API details ( Currently the .env file is in the git hub repo and we won't need to create a .env file but in production pipeline .env files are shared and need to be created at the local side )
+- Ensure that the PostgreSQL container is running via Docker **before** executing the pipeline.
+- The main script will:
+  - Load currency rates from a CSV into the database.
+  - Fetch booking data from the API.
+  - Transform the data (apply exchange rates, minimum fee logic).
+  - Store the final invoicing summary in the `invoicing` table.
+- The `.env` file (already included in the repository) contains database and API configuration for local use.  
+  In production, you should create and manage your own `.env` file securely.
+- This project uses **Poetry** for dependency and environment management.
 
-Use Poetry to manage dependencies and environment
 ```
