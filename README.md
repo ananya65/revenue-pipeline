@@ -66,7 +66,7 @@ python main.py
 
 Ensure these steps are completed before running the pipeline
 ```
-
+- Ensure the Fake_api is running and we are able to curl it i.e - curl "http://localhost:5000/api/bookings?check_in_date=2024-10-01"
 - Ensure that the PostgreSQL container is running via Docker **before** executing the pipeline.
 - The `.env` file (already included in the repository) contains database and API configuration for local use.  
   In production, you should create and manage your own `.env` file securely.
