@@ -66,8 +66,6 @@ python main.py
 
 Run the main script to load currency rates, fetch bookings from the API, transform the data, and load the invoicing summary into the database:
 ```
-### 6. Notes
-
 - Ensure that the PostgreSQL container is running via Docker **before** executing the pipeline.
 - The main script will:
   - Load currency rates from a CSV into the database.
